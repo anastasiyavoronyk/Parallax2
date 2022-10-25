@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'FuturaBT';
+    src: local('FuturaBT'),
+        url('Fonts/futura-bt-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.menu {
+    margin: auto;
+}
+.logo {
+    position: absolute;
+    padding: 38px 0 37px 301px;
+    display: inline-block;
+    font-family: 'Roboto',sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1;
+    color: #424f57;   
+}
+.logo_blue {
+    position: absolute;
+    display: inline-block;
+    padding: 38px 0 37px 452px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+    color: #14afca;
+}
+.nav_block {
+    padding: 50px 0 50px 734px;
+}
+.navigation {
+    display: inline-block;
+    margin-right: 60px;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #3e4c4e;
+    text-decoration: none;
+}
+.navigation:hover {
+    color: #14afca;
+}
+.parallax_create {
+    background-image: url(image/1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 460px;
+    clip-path: polygon(0 85%, 0 0, 100% 0, 100% 85%, 50% 100%);
+    -webkit-clip-path: polygon(0 85%, 0 0, 100% 0, 100% 85%, 50% 100%);
+}
+.container_create {
+    margin: auto;
+    padding-top: 173px;
+    max-width: 973px;
+    font-family: 'FuturaBT',sans-serif;
+    font-size: 52px;
+    line-height: 1.44;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container_what {
+    max-width: 973px;
+    margin: auto;
+}
+.description_what {
+    padding: 108px 0 20px 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    color: #14afca;
+}
+.alt_what {
+    padding-bottom: 42px;
+    font-family: 'OpenSans',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2.22;
+  letter-spacing: 0.9px;
+  text-align: center;
+  color: #424f57;
+}
+.text_what {
+    padding-bottom: 185px;
+    font-family: 'Roboto',sans-serif;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: #424f57;
+}
+.parallax_companies {
+    background-image: url(image/2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 715px;
+    clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 50% 10%, 100% 0);
+    -webkit-clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 50% 10%, 100% 0);
+}
+.title_companies {
+    padding-top: 134px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.25;
+    text-align: center;
+    color: #14afca;
+}
+.description_companies {
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 4.17;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #fff;
+}
+.logo_box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1092px;
+    margin: auto;
+}
+.logo_hover{
+    margin: 30px 25px 44px 25px;
+}
+.logo_hover:hover {
+    background-color: #fcfbfb;
+    color: black;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.6);
+}
+.title_team {
+    margin-top: 94px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(20, 175, 202, 0.89);
+    text-align: center;
+}
+.alt_team {
+    margin-bottom: 47px;
+    opacity: 0.89;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.22;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: rgba(66, 79, 87, 0.89);
+}
+.container_team {
+    display: flex;
+    margin: auto;
+    max-width: 1009px;
+    padding-bottom: 124px;
+}
+.img_team {
+    margin: 0 34px 27px 38px;
+}
+.description_team {
+    width: 279px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    line-height: 1.87;
+    text-align: center;
+    color: #424f57;
+    margin-right: 88px;
+}
+.parallax_testimonials {
+    background-image: url(image/3.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 577px;
+    clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 50% 15%, 100% 0);
+    -webkit-clip-path: polygon(100% 85%, 50% 100%, 0 85%, 0 0, 50% 15%, 100% 0);
+}
+.title_testimonials {
+    padding-top: 199px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #14afca;
+}
+.alt_testimonials {
+    margin-bottom: 43px;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.22;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #fff;
+}
+.quote_testimonials {
+    margin: auto;
+    max-width: 880px;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.75;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #d3cccc;
+}
+.author_quote {
+    margin: auto;
+    max-width: 680px;
+    padding-top: 25px;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: 0.45px;
+    text-align: right;
+    color: #fff;
+}
+.container_footer {
+    margin: 115px 0 104px;
+}
+.title_footer {
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+    color: #14afca;
+}
+.alt_footer {
+    margin-bottom: 55px;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 2.22;
+    letter-spacing: 0.45px;
+    text-align: center;
+    color: #424f57;
+}
+.slogan_footer {
+    margin: auto;
+    padding-bottom: 113px;
+    max-width: 786px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.6;
+    letter-spacing: 0.75px;
+    text-align: center;
+    color: #424f57;
+}
+.contact_footer {
+    margin: auto;
+    max-width: 386px;
+    font-family: 'OpenSans',sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #3d3c3c;
+}
+.contact_footer_bold {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
